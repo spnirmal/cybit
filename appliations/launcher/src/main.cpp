@@ -1,20 +1,46 @@
 #include <iostream>
 #include <ncurses.h>
+#include <launcher_screen.h>
+#include <application_window.h>
+#include <string>
+
+
+typedef struct{
+    int app_n;
+    std::string name;
+    }application;
+
+application app_list[4] = {
+    {1,"option1"},
+    {2,"option2"},
+    {3,"option3"},
+    {4,"option4"},
+    };
 
 int main(){
-  initscr();
+    //draw the outer screen
+    home_screen launcher;
 
-  box(stdscr,0,0);
-  int y , x;
-  getmaxyx(stdscr,y,x);
-  WINDOW *table = NULL;
+    draw_outer_border();
+ 
+    int max_x,max_y;
+    fetch_max_screen_size(max_x,max_y);
 
-  table = newwin(y-2,x/4,1,1);
-  box(table,0,0);
-  refresh();
+    WINDOW *app_win = NULL;
+    init_app_win(&app_win,max_y,max_x); 
+    draw_app_win_border(&app_win);
+    
+    refresh();
+    wrefresh(app_win);
+    int highlight = 0;
+    
+    while(1){
+        draw_app_selection(&app_win,highlight,app_list); 
+           
+        }
   
-  wrefresh(table);
+    wrefresh(app_win);
 
-  getch();
-  endwin();
+    getch();
+  
 }

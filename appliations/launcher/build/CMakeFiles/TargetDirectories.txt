@@ -1,3 +1,0 @@
-/home/nirmal/Desktop/cybit-os/appliations/launcher/build/CMakeFiles/launcher.dir
-/home/nirmal/Desktop/cybit-os/appliations/launcher/build/CMakeFiles/edit_cache.dir
-/home/nirmal/Desktop/cybit-os/appliations/launcher/build/CMakeFiles/rebuild_cache.dir
