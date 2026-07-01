@@ -4,19 +4,6 @@
 #include <application_window.h>
 #include <string>
 
-
-typedef struct{
-    int app_n;
-    std::string name;
-    }application;
-
-application app_list[4] = {
-    {1,"option1"},
-    {2,"option2"},
-    {3,"option3"},
-    {4,"option4"},
-    };
-
 int main(){
     //draw the outer screen
     home_screen launcher;
@@ -32,15 +19,17 @@ int main(){
     
     refresh();
     wrefresh(app_win);
-    int highlight = 0;
     
-    while(1){
-        draw_app_selection(&app_win,highlight,app_list); 
-           
-        }
-  
-    wrefresh(app_win);
+    //setup for keypad input
+    keypad(stdscr,1);
 
-    getch();
+    int highlight = 0;
+    int ch_in = 0; 
+    while(1){
+        draw_app_selection(&app_win,&highlight,ch_in);
+        refresh();
+        wrefresh(app_win);
+        ch_in = getch();
+        }
   
 }
