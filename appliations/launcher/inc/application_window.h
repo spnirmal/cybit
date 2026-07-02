@@ -9,8 +9,10 @@ typedef struct{
 
 extern application app_list[];
 
-void init_app_win(WINDOW **win,int y,int x);
+void init_app_border(WINDOW **win,int y,int x);
 
-void draw_app_win_border(WINDOW **win);
+void draw_app_border(WINDOW **win);
+
+void init_app_menu(WINDOW **win,int y, int x);
 
 void draw_app_selection(WINDOW **win,int *highlight,int input);
