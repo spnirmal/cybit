@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/launcher.dir/src/main.cpp.o CMakeFiles/launcher.dir/src/application_window.cpp.o CMakeFiles/launcher.dir/src/launcher_screen.cpp.o CMakeFiles/launcher.dir/src/terminal_window.cpp.o -o launcher  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 
+/usr/bin/c++ CMakeFiles/launcher.dir/src/main.cpp.o CMakeFiles/launcher.dir/src/application_window.cpp.o CMakeFiles/launcher.dir/src/launcher_screen.cpp.o CMakeFiles/launcher.dir/src/terminal_window.cpp.o CMakeFiles/launcher.dir/src/focus.cpp.o -o launcher  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 

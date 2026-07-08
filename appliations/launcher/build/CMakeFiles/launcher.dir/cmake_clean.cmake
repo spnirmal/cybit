@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/launcher.dir/src/application_window.cpp.o"
   "CMakeFiles/launcher.dir/src/application_window.cpp.o.d"
+  "CMakeFiles/launcher.dir/src/focus.cpp.o"
+  "CMakeFiles/launcher.dir/src/focus.cpp.o.d"
   "CMakeFiles/launcher.dir/src/launcher_screen.cpp.o"
   "CMakeFiles/launcher.dir/src/launcher_screen.cpp.o.d"
   "CMakeFiles/launcher.dir/src/main.cpp.o"

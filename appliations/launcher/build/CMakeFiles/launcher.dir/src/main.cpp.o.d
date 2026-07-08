@@ -149,4 +149,5 @@ CMakeFiles/launcher.dir/src/main.cpp.o: \
  /usr/include/ncurses_dll.h /usr/include/unctrl.h /usr/include/curses.h \
  /root/projects/cyb/appliations/launcher/inc/launcher_screen.h \
  /root/projects/cyb/appliations/launcher/inc/application_window.h \
- /root/projects/cyb/appliations/launcher/inc/terminal_window.h
+ /root/projects/cyb/appliations/launcher/inc/terminal_window.h \
+ /root/projects/cyb/appliations/launcher/inc/focus.h

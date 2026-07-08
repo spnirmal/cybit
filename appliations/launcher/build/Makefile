@@ -153,6 +153,30 @@ src/application_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/launcher.dir/build.make CMakeFiles/launcher.dir/src/application_window.cpp.s
 .PHONY : src/application_window.cpp.s
 
+src/focus.o: src/focus.cpp.o
+.PHONY : src/focus.o
+
+# target to build an object file
+src/focus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launcher.dir/build.make CMakeFiles/launcher.dir/src/focus.cpp.o
+.PHONY : src/focus.cpp.o
+
+src/focus.i: src/focus.cpp.i
+.PHONY : src/focus.i
+
+# target to preprocess a source file
+src/focus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launcher.dir/build.make CMakeFiles/launcher.dir/src/focus.cpp.i
+.PHONY : src/focus.cpp.i
+
+src/focus.s: src/focus.cpp.s
+.PHONY : src/focus.s
+
+# target to generate assembly for a file
+src/focus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launcher.dir/build.make CMakeFiles/launcher.dir/src/focus.cpp.s
+.PHONY : src/focus.cpp.s
+
 src/launcher_screen.o: src/launcher_screen.cpp.o
 .PHONY : src/launcher_screen.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... src/application_window.o"
 	@echo "... src/application_window.i"
 	@echo "... src/application_window.s"
+	@echo "... src/focus.o"
+	@echo "... src/focus.i"
+	@echo "... src/focus.s"
 	@echo "... src/launcher_screen.o"
 	@echo "... src/launcher_screen.i"
 	@echo "... src/launcher_screen.s"

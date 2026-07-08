@@ -187,6 +187,49 @@ CMakeFiles/launcher.dir/src/application_window.cpp.o: ../src/application_window.
   /usr/include/curses.h \
   ../inc/application_window.h
 
+CMakeFiles/launcher.dir/src/focus.cpp.o: ../src/focus.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/curses.h \
+  /usr/include/ncurses_dll.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/unctrl.h \
+  /usr/include/curses.h \
+  ../inc/focus.h
+
 CMakeFiles/launcher.dir/src/launcher_screen.cpp.o: ../src/launcher_screen.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/iostream \
@@ -558,7 +601,8 @@ CMakeFiles/launcher.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/curses.h \
   ../inc/launcher_screen.h \
   ../inc/application_window.h \
-  ../inc/terminal_window.h
+  ../inc/terminal_window.h \
+  ../inc/focus.h
 
 CMakeFiles/launcher.dir/src/terminal_window.cpp.o: ../src/terminal_window.cpp \
   /usr/include/stdc-predef.h \
@@ -608,6 +652,8 @@ CMakeFiles/launcher.dir/src/terminal_window.cpp.o: ../src/terminal_window.cpp \
 ../inc/launcher_screen.h:
 
 ../src/main.cpp:
+
+../src/focus.cpp:
 
 ../inc/application_window.h:
 
@@ -678,6 +724,8 @@ CMakeFiles/launcher.dir/src/terminal_window.cpp.o: ../src/terminal_window.cpp \
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/endian.h:
+
+../inc/focus.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 

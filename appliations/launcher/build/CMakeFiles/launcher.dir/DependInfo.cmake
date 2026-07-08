@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/projects/cyb/appliations/launcher/src/application_window.cpp" "CMakeFiles/launcher.dir/src/application_window.cpp.o" "gcc" "CMakeFiles/launcher.dir/src/application_window.cpp.o.d"
+  "/root/projects/cyb/appliations/launcher/src/focus.cpp" "CMakeFiles/launcher.dir/src/focus.cpp.o" "gcc" "CMakeFiles/launcher.dir/src/focus.cpp.o.d"
   "/root/projects/cyb/appliations/launcher/src/launcher_screen.cpp" "CMakeFiles/launcher.dir/src/launcher_screen.cpp.o" "gcc" "CMakeFiles/launcher.dir/src/launcher_screen.cpp.o.d"
   "/root/projects/cyb/appliations/launcher/src/main.cpp" "CMakeFiles/launcher.dir/src/main.cpp.o" "gcc" "CMakeFiles/launcher.dir/src/main.cpp.o.d"
   "/root/projects/cyb/appliations/launcher/src/terminal_window.cpp" "CMakeFiles/launcher.dir/src/terminal_window.cpp.o" "gcc" "CMakeFiles/launcher.dir/src/terminal_window.cpp.o.d"
