@@ -2,6 +2,7 @@
 #include <ncurses.h>
 #include <launcher_screen.h>
 #include <application_window.h>
+#include <terminal_window.h>
 #include <string>
 
 int main(){
@@ -22,7 +23,11 @@ int main(){
     //make another win for apps menu
     WINDOW *app_menu = NULL;
     init_app_menu(&app_menu,max_y,max_x);
-
+    
+    //terminal window creation
+    WINDOW *terminal = NULL;
+    init_term_window(&terminal,max_y,max_y);
+    
     //setup for keypad input
     keypad(stdscr,TRUE);
     noecho();
