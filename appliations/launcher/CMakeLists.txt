@@ -10,6 +10,7 @@ add_executable(launcher
         src/launcher_screen.cpp
         src/terminal_window.cpp
         src/focus.cpp
+        src/window.cpp
 )
 
 # Modern approach: Scope includes specifically to the 'launcher' target

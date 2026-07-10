@@ -4,18 +4,38 @@
 #include <application_window.h>
 #include <terminal_window.h>
 #include <focus.h>
+#include <window.h>
 #include <string>
 
 int main(){
     //draw the outer screen
-    home_screen launcher;
+    Home_Screen launcher;
 
-    draw_outer_border();
+    launcher.draw_outer_border();
  
     int max_x,max_y;
-    fetch_max_screen_size(max_x,max_y);
+    launcher.fetch_max_screen_size(&max_x,&max_y);
 
-    WINDOW *app_border = NULL;
+    //compute screen size for each window
+    int app_height = max_y-2;
+    int app_width = max_x/4;
+    int app_start_x = 1;
+    int app_start_y = 1;
+
+    int term_height = max_y-2;
+    int term_width = (max_x-(max_x/4) - 2);
+    int term_start_x = app_width + 1;
+    int term_start_y = 1;
+    
+    Window app_Window(app_height,app_width,app_start_x,app_start_y);
+    Window terminal_Window(term_height,term_width,term_start_x,term_start_y);
+    
+    app_Window.draw_border();
+    terminal_Window.draw_border();
+    
+
+    getch();
+/*    WINDOW *app_border = NULL;
     init_app_border(&app_border,max_y,max_x); 
     draw_app_border(&app_border);
     
@@ -37,11 +57,12 @@ int main(){
     int highlight = 0;
     int ch_in = 0; 
     FOCUS focus = APP_WIN;
-
+    focus_shift(focus,app_border,terminal);    
+    draw_app_selection(&app_menu,&highlight,ch_in);
+    wrefresh(app_menu);
+    
     while(1){
                 
-        draw_app_selection(&app_menu,&highlight,ch_in);
-        wrefresh(app_menu);
         ch_in = getch();
         
         switch(ch_in){
@@ -56,7 +77,18 @@ int main(){
             default:
                 break;
             }
-        
-        }
+            
+        if(focus == APP_WIN){
+            switch(ch_in){
+                case (KEY_UP || KEY_DOWN):
+                    draw_app_selection(&app_menu,&highlight,ch_in);
+                    wrefresh(app_menu);
+                    break;
+                default:
+                    break;
+                }
+            }
+            
+        } */
   
-}
+}   
