@@ -15,6 +15,9 @@ class Window{
         ~Window();
         
         void draw_border(void);
+
+        void color_pair(int pair);
+
     };
 
 #endif

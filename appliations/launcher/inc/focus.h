@@ -1,4 +1,5 @@
 #include <ncurses.h>
+#include "window.h"
 
 typedef enum{
     APP_WIN= 1,
@@ -6,4 +7,4 @@ typedef enum{
     }FOCUS;
 
 
-void focus_shift(FOCUS curr, WINDOW *win, WINDOW *win_sec);
+void focus_shift(Window *curr_focus, Window *remove_focus);

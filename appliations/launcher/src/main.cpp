@@ -32,63 +32,26 @@ int main(){
     
     app_Window.draw_border();
     terminal_Window.draw_border();
-    
 
-    getch();
-/*    WINDOW *app_border = NULL;
-    init_app_border(&app_border,max_y,max_x); 
-    draw_app_border(&app_border);
-    
-    refresh();
-    wrefresh(app_border);
-    //make another win for apps menu
-    WINDOW *app_menu = NULL;
-    init_app_menu(&app_menu,max_y,max_x);
-    
-    //terminal window creation
-    WINDOW *terminal = NULL;
-    init_term_window(&terminal,max_y,max_y);
-    start_color();
-    init_pair(1,COLOR_WHITE,COLOR_BLACK);
-    init_pair(2,154,COLOR_BLACK);
-    //setup for keypad input
-    keypad(stdscr,TRUE);
-    noecho();
-    int highlight = 0;
-    int ch_in = 0; 
-    FOCUS focus = APP_WIN;
-    focus_shift(focus,app_border,terminal);    
-    draw_app_selection(&app_menu,&highlight,ch_in);
-    wrefresh(app_menu);
-    
+    // initial focus on application list window
+    focus_shift(&app_Window,&terminal_Window);
+    int input;
+
     while(1){
-                
-        ch_in = getch();
-        
-        switch(ch_in){
-            case KEY_LEFT:
-                focus = APP_WIN;
-                focus_shift(focus,app_border,terminal);
+        // enter launcher application loop
+        input = getch();
+        switch(input){
+            case KEY_RIGHT: 
+                focus_shift(&terminal_Window,&app_Window);
                 break;
-            case KEY_RIGHT:
-                focus = TERM_WIN;
-                focus_shift(focus,terminal,app_border);
+            case KEY_LEFT:
+                focus_shift(&app_Window,&terminal_Window);
                 break;
             default:
                 break;
-            }
-            
-        if(focus == APP_WIN){
-            switch(ch_in){
-                case (KEY_UP || KEY_DOWN):
-                    draw_app_selection(&app_menu,&highlight,ch_in);
-                    wrefresh(app_menu);
-                    break;
-                default:
-                    break;
-                }
-            }
-            
-        } */
+        }
+
+    }
+    
   
 }   
