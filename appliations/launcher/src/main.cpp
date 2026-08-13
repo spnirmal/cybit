@@ -27,14 +27,16 @@ int main(){
     int term_start_x = app_width + 1;
     int term_start_y = 1;
     
-    Window app_Window(app_height,app_width,app_start_x,app_start_y);
-    Window terminal_Window(term_height,term_width,term_start_x,term_start_y);
+    ApplicationWindow app_Window(app_height,app_width,app_start_x,app_start_y);
+    TerminalWindow terminal_Window(term_height,term_width,term_start_x,term_start_y);
     
     app_Window.draw_border();
     terminal_Window.draw_border();
 
     // initial focus on application list window
     focus_shift(&app_Window,&terminal_Window);
+    
+    Window *active_window = &app_Window;
     int input;
 
     while(1){
@@ -42,12 +44,15 @@ int main(){
         input = getch();
         switch(input){
             case KEY_RIGHT: 
+                active_window = &terminal_Window;
                 focus_shift(&terminal_Window,&app_Window);
                 break;
             case KEY_LEFT:
+                active_window = &app_Window;
                 focus_shift(&app_Window,&terminal_Window);
                 break;
             default:
+                active_window->handleInput(input);
                 break;
         }
 

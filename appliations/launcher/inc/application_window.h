@@ -1,6 +1,8 @@
 #pragma once
+#include "window.h"
+#include <ncurses.h>
 
-#define MAX_APPLICATIONS 4
+#define MAX_APPLICATIONS 5
 
 typedef struct{
     int app_n;
@@ -9,10 +11,19 @@ typedef struct{
 
 extern application app_list[];
 
-void init_app_border(WINDOW **win,int y,int x);
+class ApplicationWindow : public Window{
+    private:
+        int innerwin_width;
+        int innerwin_height;
+        int innerwin_startx;
+        int innerwin_starty;
+        WINDOW *innerWin;
+        int currentSelection;
 
-void draw_app_border(WINDOW **win);
+    public:
+        ApplicationWindow(int height, int width, int start_x, int start_y);
 
-void init_app_menu(WINDOW **win,int y, int x);
+        void loadApplication(void);
 
-void draw_app_selection(WINDOW **win,int *highlight,int input);
+        void handleInput(int input) override;
+};

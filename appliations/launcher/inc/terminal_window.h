@@ -1,5 +1,11 @@
 #pragma once
 
 #include <ncurses.h>
+#include "window.h"
 
-void init_term_window(WINDOW **win, int x, int y);
+class TerminalWindow : public Window{
+    public :
+        TerminalWindow(int height, int width, int start_x, int start_y);
+
+        void handleInput(int input) override;
+};

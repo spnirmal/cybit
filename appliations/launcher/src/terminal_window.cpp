@@ -1,9 +1,12 @@
 #include <ncurses.h>
 #include <stdint.h>
+#include "terminal_window.h"
+#include "window.h"
 
-void init_term_window(WINDOW **win,int x, int y){
-    *win = newwin((y-2), 109 , 1 , 38 );
-    box(*win,0,0);
-    wrefresh(*win);
-    return;
-   } 
+TerminalWindow::TerminalWindow(int height, int width, int start_x, int start_y): Window(height,width,start_x,start_y){
+    
+}
+
+void TerminalWindow::handleInput(int input){
+
+}

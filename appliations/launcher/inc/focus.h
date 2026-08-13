@@ -4,7 +4,7 @@
 typedef enum{
     APP_WIN= 1,
     TERM_WIN,
-    }FOCUS;
+    }FOCUS_WINDOW;
 
 
 void focus_shift(Window *curr_focus, Window *remove_focus);

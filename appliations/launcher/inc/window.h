@@ -2,8 +2,9 @@
 #define WINDOW_H
 #include "ncurses.h"
 
+
 class Window{
-    private:
+    protected:
         WINDOW *win;
         int width;
         int height;
@@ -17,6 +18,12 @@ class Window{
         void draw_border(void);
 
         void color_pair(int pair);
+
+        WINDOW *getWin(void){
+            return win;
+        }
+
+        virtual void handleInput(int input);
 
     };
 

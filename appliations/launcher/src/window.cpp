@@ -28,3 +28,7 @@ void Window::color_pair(int pair){
         wattron(win,COLOR_PAIR(2));
     }
 }
+
+void Window::handleInput(int input){
+    
+}
