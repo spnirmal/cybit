@@ -1,0 +1,2165 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Buildroot - 1 - aarch64
+      The host system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc 
+      Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ar"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ranlib"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-strip"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ld"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-nm"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-objdump"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-objcopy"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-readelf"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/games/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-dlltool"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-addr2line"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/games/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-tapi"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ 
+      Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW"
+      binary: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0"
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3596b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3596b.dir/build.make CMakeFiles/cmTC_3596b.dir/build
+        gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW'
+        Building C object CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc.br_real
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1 -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3596b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fPIE -o /tmp/ccA4zkep.s
+        GNU C23 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: cfc794ff1687dd8bde23668df4dae01d
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o /tmp/ccA4zkep.s
+        GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_3596b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3596b.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc.br_real
+        COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3596b' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3596b.'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc82wWuQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_3596b /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3596b' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3596b.'
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG  -v CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -o cmTC_3596b
+        gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        implicit include dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3596b/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3596b.dir/build.make CMakeFiles/cmTC_3596b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW']
+        ignore line: [Building C object CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc.br_real]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1 -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3596b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fPIE -o /tmp/ccA4zkep.s]
+        ignore line: [GNU C23 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: cfc794ff1687dd8bde23668df4dae01d]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o /tmp/ccA4zkep.s]
+        ignore line: [GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_3596b]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3596b.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc.br_real]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3596b' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3596b.']
+        link line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc82wWuQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_3596b /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc82wWuQ.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-uClibc.so.0] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3596b] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-zcommon-page-size=4096] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3596b' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3596b.']
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG  -v CMakeFiles/cmTC_3596b.dir/CMakeCCompilerABI.c.o -o cmTC_3596b]
+        ignore line: [gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cWZCZW']
+        ignore line: []
+        ignore line: []
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM"
+      binary: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0"
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/share/buildroot"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_48577/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_48577.dir/build.make CMakeFiles/cmTC_48577.dir/build
+        gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM'
+        Building CXX object CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1plus -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_48577.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fPIE -o /tmp/ccte8u3B.s
+        GNU C++17 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: d4f3f4d44b93d926195a928ffc392acf
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccte8u3B.s
+        GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_48577
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48577.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real
+        COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_48577' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_48577.'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpBS3Ql.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_48577 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_48577' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_48577.'
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG  -v CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_48577
+        gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        implicit include dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_48577/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_48577.dir/build.make CMakeFiles/cmTC_48577.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM']
+        ignore line: [Building CXX object CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1plus -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_48577.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fPIE -o /tmp/ccte8u3B.s]
+        ignore line: [GNU C++17 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d4f3f4d44b93d926195a928ffc392acf]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccte8u3B.s]
+        ignore line: [GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_48577]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48577.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_48577' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_48577.']
+        link line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpBS3Ql.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_48577 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccpBS3Ql.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-uClibc.so.0] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_48577] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-zcommon-page-size=4096] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_48577' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_48577.']
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0   -DNDEBUG  -v CMakeFiles/cmTC_48577.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_48577]
+        ignore line: [gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/build-rpi/CMakeFiles/CMakeScratch/TryCompile-3nP0QM']
+        ignore line: []
+        ignore line: []
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:137 (find_library)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "CURSES_CURSES_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curses"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libcurses.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:139 (find_library)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "CURSES_NCURSES_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ncurses"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libncurses.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:250 (find_path)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "path"
+    variable: "CURSES_INCLUDE_PATH"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curses.h"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/X11/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/include/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/X11/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:308 (find_library)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "CURSES_FORM_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "form"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libform.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:331 (find_package)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/pkg-config"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:765 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake-4.2/Modules/FindCurses.cmake:333 (pkg_check_modules)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_NCURSES_ncurses"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ncurses"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/X11R6/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/pkg/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/lib/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/X11/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/sbin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/games/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libncurses.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+...

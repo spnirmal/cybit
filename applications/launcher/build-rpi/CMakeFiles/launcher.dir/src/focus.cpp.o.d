@@ -1,0 +1,32 @@
+CMakeFiles/launcher.dir/src/focus.cpp.o: \
+ /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/src/focus.cpp \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/curses.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/ncurses_dll.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stdint.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/stdint.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/features.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/stdio.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stddef.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/wchar.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/endian.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stdarg.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stdbool.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/unctrl.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/curses.h \
+ /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/inc/focus.h \
+ /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/inc/window.h \
+ /home/sp/Documents/projects/cyberdeck/cybit_rpi/appliations/launcher/inc/window.h
