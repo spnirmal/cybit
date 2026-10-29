@@ -5,7 +5,7 @@
 #include <string.h>
 
 application app_list[MAX_APPLICATIONS] = {
-    {1, "option1"}, {2, "option2"}, {3, "option3"}, {4, "option4"}, {5, " "},
+    {1, "option1"}, {2, "option2"}, {3, "option3"}, {4, "option4"},
 };
 
 ApplicationWindow::ApplicationWindow(int height, int width, int start_x,
@@ -17,7 +17,7 @@ ApplicationWindow::ApplicationWindow(int height, int width, int start_x,
   innerwin_starty = start_y;
   innerWin = subwin(win, innerwin_height, innerwin_width, innerwin_starty,
                     innerwin_startx);
-  currentSelection = app_list[0].app_n;
+  currentSelection = 0;
   refresh();
   loadApplication();
 }
@@ -26,13 +26,13 @@ void ApplicationWindow::handleInput(int input) {
   switch (input) {
 
   case KEY_UP:
-    currentSelection = (currentSelection - 1) % MAX_APPLICATIONS;
+    currentSelection =
+        (currentSelection - 1 + MAX_APPLICATIONS) % MAX_APPLICATIONS;
     loadApplication();
     break;
 
   case KEY_DOWN:
-    currentSelection =
-        (currentSelection + 1 + MAX_APPLICATIONS) % MAX_APPLICATIONS;
+    currentSelection = (currentSelection + 1) % MAX_APPLICATIONS;
     loadApplication();
     break;
 
@@ -45,7 +45,7 @@ void ApplicationWindow::loadApplication(void) {
   int y_axis = 1;
   int x_axis = 1;
   for (int i = 0; i < MAX_APPLICATIONS; i++) {
-    if (currentSelection == app_list[i].app_n) {
+    if (currentSelection == i) {
       wattron(innerWin, A_REVERSE);
       mvwhline(innerWin, y_axis, x_axis, ' ', getmaxx(innerWin));
       mvwprintw(innerWin, y_axis, x_axis, "%s", app_list[i].name.c_str());

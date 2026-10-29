@@ -3,7 +3,7 @@
 #include <ncurses.h>
 #include <string>
 
-#define MAX_APPLICATIONS 5
+#define MAX_APPLICATIONS 4
 
 typedef struct {
   int app_n;
