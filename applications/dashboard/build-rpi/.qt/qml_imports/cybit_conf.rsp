@@ -1,0 +1,16 @@
+-rootPath
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard
+-cmake-output
+-output-file
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/qml_imports/cybit_conf.cmake
+-importPath
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi
+-importPath
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit
+-importPath
+/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml
+-qrcFiles
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc
+/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc

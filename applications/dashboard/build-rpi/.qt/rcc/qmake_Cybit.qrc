@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cybit">
+    <file alias="qmldir">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir</file>
+  </qresource>
+</RCC>
+

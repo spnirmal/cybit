@@ -1,0 +1,71 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "visibility",
+                            "line": 8,
+                            "message": "Could not find property \"visibility\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "flags",
+                            "line": 9,
+                            "message": "Could not find property \"flags\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 12,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 13,
+                            "message": "Could not find property \"height\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 25,
+                            "message": "Cannot access value for name width"
+                        }
+                    ],
+                    "filePath": "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/Main.qml"
+                }
+            ],
+            "moduleId": "Cybit(cybit)"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

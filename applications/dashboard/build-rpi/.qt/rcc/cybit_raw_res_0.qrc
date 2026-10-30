@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Cybit/">
+    <file alias="assets/image.png">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/image.png</file>
+  </qresource>
+</RCC>
+

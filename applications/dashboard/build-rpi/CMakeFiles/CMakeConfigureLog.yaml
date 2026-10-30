@@ -1,0 +1,3236 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/sp/.local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/.local/bin/uname"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/sp/.local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/.local/bin/gmake"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-g++"
+    candidate_directories:
+      - "/home/sp/.local/bin/"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-g++"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/sbin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/games/aarch64-cybit-linux-uclibc-dlltool"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-dlltool"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-dlltool"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/dlltool"
+      - "/home/sp/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/sbin/aarch64-cybit-linux-uclibc-tapi"
+      - "/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/games/aarch64-cybit-linux-uclibc-tapi"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-tapi"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-tapi"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/tapi"
+      - "/home/sp/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "aarch64-cybit-linux-uclibc-gcc-ar"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ar15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ar15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "aarch64-cybit-linux-uclibc-gcc-ranlib"
+    candidate_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/"
+      - "/home/sp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15.3"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib-15"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/home/sp/.local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/sbin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/usr/local/games/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+      - "/snap/bin/aarch64-cybit-linux-uclibc-gcc-ranlib15"
+    found: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK"
+      binary: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68a07/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_68a07.dir/build.make CMakeFiles/cmTC_68a07.dir/build
+        gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK'
+        Building CXX object CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++   -v -o CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1plus -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_68a07.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -fPIE -o /tmp/cc0gxtfI.s
+        GNU C++17 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: d4f3f4d44b93d926195a928ffc392acf
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0gxtfI.s
+        GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_68a07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a07.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real
+        COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper
+        Target: aarch64-cybit-linux-uclibc
+        Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) 
+        COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/
+        LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'cmTC_68a07' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_68a07.'
+         /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYeUWRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_68a07 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro -v CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o
+        collect2 version 15.3.0
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/ld -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYeUWRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_68a07 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro -v CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.46.1
+        COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'cmTC_68a07' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_68a07.'
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++  -v -Wl,-v CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_68a07
+        gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+          add: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include]
+        collapse include dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        implicit include dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68a07/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_68a07.dir/build.make CMakeFiles/cmTC_68a07.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-cHYHvK']
+        ignore line: [Building CXX object CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++   -v -o CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/cc1plus -quiet -v -isysroot /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_68a07.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -fPIE -o /tmp/cc0gxtfI.s]
+        ignore line: [GNU C++17 (Buildroot 2026.08-859-g319aa2b9ed) version 15.3.0 (aarch64-cybit-linux-uclibc)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/local/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include/c++/15.3.0/backward]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include-fixed]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/include]
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d4f3f4d44b93d926195a928ffc392acf]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/']
+        ignore line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0gxtfI.s]
+        ignore line: [GNU assembler version 2.46.1 (aarch64-cybit-linux-uclibc) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_68a07]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a07.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++.br_real]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-cybit-linux-uclibc]
+        ignore line: [Configured with: ./configure --prefix=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --sysconfdir=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/etc --enable-static --target=aarch64-cybit-linux-uclibc --with-sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-plugins --enable-lto --with-gmp=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpc=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-mpfr=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host --with-pkgversion='Buildroot 2026.08-859-g319aa2b9ed' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-decimal-float --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.3.0 (Buildroot 2026.08-859-g319aa2b9ed) ]
+        ignore line: [COMPILER_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/]
+        ignore line: [LIBRARY_PATH=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/:/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot' '-fPIE' '-pie' '-v' '-o' 'cmTC_68a07' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_68a07.']
+        link line: [ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2 -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYeUWRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_68a07 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro -v CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYeUWRO.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-uClibc.so.0] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_68a07] ==> ignore
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+          arg [-L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-zcommon-page-size=4096] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o]
+          arg [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 15.3.0]
+        ignore line: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/ld -plugin /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/liblto_plugin.so -plugin-opt=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/gcc/aarch64-cybit-linux-uclibc/15.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYeUWRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -EL -maarch64linux -pie -o cmTC_68a07 /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64 -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib -L/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro -v CMakeFiles/cmTC_68a07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o]
+        linker tool for 'CXX': /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/ld
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/Scrt1.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crti.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/../lib64] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib]
+        collapse library dir [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib] ==> [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/Scrt1.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crti.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtbeginS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/crtendS.o;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib64;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/lib;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/../../../../aarch64-cybit-linux-uclibc/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6"
+    components:
+      -
+        name: "Quick"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/.local/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/.local/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/qt6/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/qt6/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/qt6/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/qt6/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/qt6/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/qt6/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/sp/.local/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:206 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc"
+      binary: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2540f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2540f.dir/build.make CMakeFiles/cmTC_2540f.dir/build
+        gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc'
+        Building CXX object CMakeFiles/cmTC_2540f.dir/src.cxx.o
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_2540f.dir/src.cxx.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc/src.cxx
+        Linking CXX executable cmTC_2540f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2540f.dir/link.txt --verbose=1
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot CMakeFiles/cmTC_2540f.dir/src.cxx.o -o cmTC_2540f
+        gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-odvzgc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk"
+      binary: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee20d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ee20d.dir/build.make CMakeFiles/cmTC_ee20d.dir/build
+        gmake[1]: Entering directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk'
+        Building CXX object CMakeFiles/cmTC_ee20d.dir/src.cxx.o
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_ee20d.dir/src.cxx.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk/src.cxx
+        Linking CXX executable cmTC_ee20d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee20d.dir/link.txt --verbose=1
+        /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot CMakeFiles/cmTC_ee20d.dir/src.cxx.o -o cmTC_ee20d
+        gmake[1]: Leaving directory '/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/CMakeScratch/TryCompile-q40Uzk'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:44 (_qt_internal_find_tool_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6CoreTools"
+    configs:
+      -
+        filename: "Qt6CoreToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6coretools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6CoreTools"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Core"
+    configs:
+      -
+        filename: "Qt6CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Core"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6CorePrivate/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6CorePrivate/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Quick"
+    configs:
+      -
+        filename: "Qt6QuickConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6quick-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Quick"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickTemplates2Private/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickTemplates2Private/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickTemplates2/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapesPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapes/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickShapes/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickParticlesPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickParticlesPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickLayoutsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickLayoutsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickLayouts/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickLayouts/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickEffectsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickEffectsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickEffects/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickEffects/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2UtilsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2UtilsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2Utils/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2Utils/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2QuickImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2QuickImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2Private/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2Private/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickDialogs2/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2UniversalPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Universal/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Universal/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Private/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Private/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2MaterialPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Material/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Material/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Impl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Impl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImagineStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImagineStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImaginePrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2ImaginePrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Imagine/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Imagine/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FusionPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Fusion/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Fusion/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2BasicPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Basic/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2Basic/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QuickControls2/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6GuiTools"
+    configs:
+      -
+        filename: "Qt6GuiToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6guitools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6GuiTools"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Gui/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib64/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Gui"
+    configs:
+      -
+        filename: "Qt6GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Gui"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6GuiPrivate/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:53 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlTools"
+    configs:
+      -
+        filename: "Qt6QmlToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmltools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlTools"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib64/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:53 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlIntegration"
+    configs:
+      -
+        filename: "Qt6QmlIntegrationConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlintegration-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlIntegration"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlIntegrationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qmlintegration-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake:34 (find_package)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:205 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlCompilerPlusPrivateTools"
+    configs:
+      -
+        filename: "Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlcompilerplusprivatetools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlCompilerPlusPrivateTools"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/opt/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/pkgRedirects/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Qml"
+    configs:
+      -
+        filename: "Qt6QmlConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qml-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Qml"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmltcPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmltcPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlXmlListModelPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlXmlListModelPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlXmlListModel/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlXmlListModel/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScriptPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScriptPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScript/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScript/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlTypeRegistrarPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlTypeRegistrarPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlToolingSettingsPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlToolingSettingsPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModelsPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModelsPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModels/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModels/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMetaPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMetaPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlIntegration/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlIntegration/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlFormatPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlFormatPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlDomPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlDomPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCorePrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCorePrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCore/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCore/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCompilerPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCompilerPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCompiler/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlCompiler/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlModels"
+    configs:
+      -
+        filename: "Qt6QmlModelsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlmodels-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlModels"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModelsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qmlmodels-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModelsPrivate/Qt6QmlModelsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModelsPrivate/qt6qmlmodels-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/Qt6QmlMetaDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:50 (include)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlWorkerScript"
+    configs:
+      -
+        filename: "Qt6QmlWorkerScriptConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlworkerscript-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlWorkerScript"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScriptConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qmlworkerscript-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScriptPrivate/Qt6QmlWorkerScriptConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScriptPrivate/qt6qmlworkerscript-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
+      - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6/Qt6Config.cmake:267 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6QmlMeta"
+    configs:
+      -
+        filename: "Qt6QmlMetaConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlmeta-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.2"
+      version_complete: "6.11.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlMeta"
+      search_paths:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Quick/.."
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMetaConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/qt6qmlmeta-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMetaPrivate/Qt6QmlMetaConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMetaPrivate/qt6qmlmeta-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake"
+      mode: "config"
+      version: "6.11.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host"
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot"
+...

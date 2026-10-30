@@ -1,0 +1,6 @@
+module Cybit
+typeinfo cybit.qmltypes
+prefer :/qt/qml/Cybit/
+Main 1.0 ui/Main.qml
+depends QtQuick
+
