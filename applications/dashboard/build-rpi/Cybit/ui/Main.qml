@@ -17,7 +17,7 @@ ApplicationWindow {
         id: bgImage
         anchors.fill: parent
         source: "qrc:/qt/qml/Cybit/assets/image.png"
-        fillMode: Image.Stretch
+        fillMode: Image.PreserveAspectRatio
         smooth: true
         mipmap: true
     }

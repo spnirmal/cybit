@@ -1,0 +1,5 @@
+this is a gpio consumer driver for linux.
+
+i have defined static pins which will be monitored for rotation actions on the rotary encoder and button clicks.
+
+

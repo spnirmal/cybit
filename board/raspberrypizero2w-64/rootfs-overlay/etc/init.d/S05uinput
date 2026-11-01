@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        /sbin/modprobe uinput || exit 1
+
+        while [ ! -e /dev/uinput ]; do
+            sleep 1
+        done
+
+        /usr/bin/rotary_encoder >> /tmp/rotary.log 2>&1 &
+        ;;
+esac
+
+exit 0

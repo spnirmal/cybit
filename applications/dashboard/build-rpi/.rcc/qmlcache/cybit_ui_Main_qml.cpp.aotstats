@@ -38,12 +38,12 @@
                             "message": "Could not find property \"height\"."
                         },
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
                             "line": 20,
-                            "message": ""
+                            "message": "Cannot load property PreserveAspectRatio from const QMetaObject."
                         },
                         {
                             "codegenResult": 0,

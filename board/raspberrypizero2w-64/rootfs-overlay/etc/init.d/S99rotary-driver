@@ -1,0 +1,16 @@
+#!/bin/sh
+case "$1" in
+  start)
+    if [ -f /lib/modules/$(uname -r)/extra/rotary_cybit.ko ]; then
+        echo "Loading rotary input driver..."
+        insmod /lib/modules/$(uname -r)/extra/rotary_cybit.ko
+    fi
+    ;;
+  stop)
+    rmmod rotary_cybit 2>/dev/null || true
+    ;;
+  *)
+    echo "Usage: $0 {start|stop}"
+    exit 1
+    ;;
+esac

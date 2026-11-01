@@ -1,0 +1,62 @@
+#!/bin/sh
+
+DAEMON="tailscaled"
+PIDFILE="/var/run/$DAEMON.pid"
+STATE_DIR="/var/lib/tailscale"
+
+start() {
+    printf "Starting tailscaled: "
+
+    # 1. Ensure TUN node exists
+    mkdir -p /dev/net
+    [ ! -c /dev/net/tun ] && mknod /dev/net/tun c 10 200 && chmod 600 /dev/net/tun
+
+    # 2. Sync date formatted for BusyBox date
+    HTTP_TIME=$(wget -q -S -O /dev/null http://google.com 2>&1 | awk '/^[[:space:]]*[Dd]ate:/ {
+        split("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec", m, " ");
+        for (i=1; i<=12; i++) mon[m[i]] = sprintf("%02d", i);
+        printf "%s-%s-%02d %s\n", $5, mon[$4], $3, $6;
+        exit;
+    }')
+
+    if [ -n "$HTTP_TIME" ]; then
+        date -u -s "$HTTP_TIME" > /dev/null 2>&1
+    else
+        CURRENT_YEAR=$(date +%Y)
+        [ "$CURRENT_YEAR" -lt 2026 ] && date -s "2026-10-30 08:35:00" > /dev/null 2>&1
+    fi
+
+    # 3. Create directories
+    mkdir -p "$STATE_DIR"
+    mkdir -p /var/run/tailscale
+
+    # 4. Start daemon
+    start-stop-daemon -S -b -m -p "$PIDFILE" -x /usr/sbin/tailscaled -- \
+        --state="$STATE_DIR/tailscaled.state" \
+        --socket=/var/run/tailscale/tailscaled.sock
+
+    [ $? -eq 0 ] && echo "OK" || echo "FAIL"
+}
+
+stop() {
+    printf "Stopping tailscaled: "
+    start-stop-daemon -K -p "$PIDFILE"
+    rm -f "$PIDFILE"
+    echo "OK"
+}
+
+restart() {
+    stop
+    sleep 1
+    start
+}
+
+case "$1" in
+    start|stop|restart)
+        "$1"
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac

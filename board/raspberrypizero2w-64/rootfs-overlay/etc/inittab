@@ -29,11 +29,13 @@ null::sysinit:/bin/ln -sf /proc/self/fd/2 /dev/stderr
 ::sysinit:/etc/init.d/rcS
 
 # Put a getty on the serial port
-#console::respawn:/sbin/getty -L  console 0 vt100 # GENERIC_SERIAL
-#tty1::respawn:/sbin/getty -L  tty1 0 vt100 # HDMI console
+console::respawn:/sbin/getty -L  console 0 vt100 # GENERIC_SERIAL
+tty1::respawn:/sbin/getty -L  tty1 0 vt100 # HDMI console
 
-tty1::respawn:/usr/bin/cybit-launcher
-ttyAMA0::respawn:/usr/bin/cybit-launcher
+
+tty1::respawn:/bin/sh -c 'export QT_QPA_PLATFORM=linuxfb; export LANG=C.UTF-8; export LC_ALL=C.UTF-8; exec /usr/bin/cybit'
+#ttyAMA0::respawn:/usr/bin/cybit-launcher
+#::respawn:/usr/bin/rotary_encoder
 
 # Stuff to do for the 3-finger salute
 #::ctrlaltdel:/sbin/reboot

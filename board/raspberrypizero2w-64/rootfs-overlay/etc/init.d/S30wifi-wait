@@ -1,0 +1,20 @@
+#!/bin/sh
+case "$1" in
+  start)
+    printf "Waiting for wlan0..."
+    for i in $(seq 1 100); do
+        if [ -d /sys/class/net/wlan0 ]; then
+            echo " OK (${i}00ms)"
+            exit 0
+        fi
+        usleep 100000
+    done
+    echo " TIMEOUT"
+    ;;
+  stop)
+    ;;
+  *)
+    echo "Usage: $0 {start|stop}"
+    exit 1
+    ;;
+esac
