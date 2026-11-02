@@ -19,7 +19,6 @@ struct rotary_gpios_desc {
   int irq_button;
 
   int last_a;
-  int last_b;
   struct device *dev;
 };
 
@@ -63,9 +62,8 @@ static int rotary_cybit_probe(struct platform_device *pdev) {
 
   // last encoder state seeding
   gpios->last_a = gpiod_get_value_cansleep(gpios->a);
-  gpios->last_b = gpiod_get_value_cansleep(gpios->b);
 
-  if (gpios->last_a < 0 || gpios->last_b < 0)
+  if (gpios->last_a < 0)
     return dev_err_probe(dev, -EIO, "Failed to read initial encoder state\n");
 
   gpios->irq_a = gpiod_to_irq(gpios->a);
@@ -108,6 +106,15 @@ static irqreturn_t rotary_irq_thread(int irq, void *dev_id) {
 
   int a = gpiod_get_value_cansleep(gpios->a);
   int b = gpiod_get_value_cansleep(gpios->b);
+  if (a != gpios->last_a) {
+    if (a == b) {
+      printk("clockwise\n");
+    } else {
+      printk("anti-clockwise\n");
+    }
+  }
+
+  gpios->last_a = a;
 
   return IRQ_HANDLED;
 }
