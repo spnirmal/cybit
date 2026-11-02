@@ -1,1 +1,0 @@
-savedcmd_/home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/modules.order := {   echo /home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/rotary_cybit.o; :; } > /home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/modules.order

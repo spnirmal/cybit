@@ -1,1 +1,0 @@
-savedcmd_/home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/Module.symvers -n -T /home/sp/Documents/projects/cyberdeck/cybit_rpi/drivers/rotary_input/modules.order -i Module.symvers -e 
