@@ -18,6 +18,9 @@ qt_add_qml_module(cybit
     VERSION 1.0
     QML_FILES
         ui/Main.qml
+        ui/views/DashboardView.qml
+        ui/views/YTMusicView.qml
+        ui/views/LeftView.qml
     RESOURCES
         assets/image.png
 )
