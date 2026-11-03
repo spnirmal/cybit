@@ -20,3 +20,4 @@ hdmi_mode=87
 hdmi_cvt=800 480 60 6 0 0 0
 
 dtoverlay=cybit-zero2w
+dtoverlay=ads7846,cs=1,penirq=25,speed=50000,xmin=200,xmax=3900,ymin=200,ymax=3900,xohms=150
