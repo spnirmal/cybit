@@ -9,21 +9,18 @@ ApplicationWindow {
     flags: Qt.FramelessWindowHint
     title: "Cybit"
 
-    width: Screen.width
-    height: Screen.height
+    width: 800
+    height: 480
     color: "black"
 
-    Image {
-        id: bgImage
+    SwipeView {
+        id: views
         anchors.fill: parent
-        source: "qrc:/qt/qml/Cybit/assets/image.png"
-        fillMode: Image.PreserveAspectRatio
-        smooth: true
-        mipmap: true
-    }
+        currentIndex: 1
+        interactive: true
 
-    Component.onCompleted: {
-        console.log("Window Geometry:", width, "x", height)
-        console.log("Screen Geometry:", Screen.width, "x", Screen.height)
+        LeftView {}
+        DashboardView {}
+        YTMusicView {}
     }
 }

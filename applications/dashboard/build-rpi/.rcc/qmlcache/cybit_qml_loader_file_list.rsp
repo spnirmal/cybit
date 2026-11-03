@@ -7,3 +7,6 @@
 --resource
 /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
 /qt/qml/Cybit/ui/Main.qml
+/qt/qml/Cybit/ui/views/DashboardView.qml
+/qt/qml/Cybit/ui/views/YTMusicView.qml
+/qt/qml/Cybit/ui/views/LeftView.qml

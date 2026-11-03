@@ -1,10 +1,18 @@
 CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/src/main.cpp \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/QGuiApplication \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qguiapplication.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtguiglobal.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qglobal.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/type_traits \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/QByteArray \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbytearray.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qrefcount.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qatomic.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbasicatomic.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qatomic_cxx11.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qgenericatomic.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcompilerdetection.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qprocessordetection.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qsystemdetection.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtconfiginclude.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/version \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/version.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/c++config.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/os_defines.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/features.h \
@@ -12,40 +20,43 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/cpu_defines.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/pstl/pstl_config.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/version.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cstddef \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stddef.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qconfig.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtcore-config.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/utility \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/stl_relops.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/stl_pair.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/type_traits \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/move.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/utility.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/initializer_list \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtconfigmacros.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtdeprecationdefinitions.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtversionchecks.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/assert.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtypes.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qassert.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtcoreexports.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtdeprecationmarkers.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtclasshelpermacros.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtnoop.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cstddef \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stddef.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cstdint \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stdint.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/stdint.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/wchar.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/assert.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qyieldcpu.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/atomic \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/atomic_base.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/new \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/exception.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/atomic_lockfree_defines.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qnamespace.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qglobal.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/lib/gcc/aarch64-cybit-linux-uclibc/15.3.0/include/stdbool.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtcoreglobal.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtversionchecks.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtconfiginclude.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/version \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qconfig.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtcore-config.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtconfigmacros.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtdeprecationdefinitions.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcompilerdetection.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qprocessordetection.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qsystemdetection.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtcoreexports.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtdeprecationmarkers.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtclasshelpermacros.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtpreprocessorsupport.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qassert.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtnoop.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtypes.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtversion.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtypeinfo.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcontainerfwd.h \
@@ -76,8 +87,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/stl_heap.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/uniform_int_dist.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/stl_tempbuf.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/new \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/exception.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/stl_construct.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cstdlib \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/stdlib.h \
@@ -103,14 +112,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/std_abs.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/pstl/glue_algorithm_defs.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/pstl/execution_defs.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qatomic.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbasicatomic.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qatomic_cxx11.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qgenericatomic.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qyieldcpu.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/atomic \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/atomic_base.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/atomic_lockfree_defines.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qconstructormacros.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdarwinhelpers.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qexceptionhandling.h \
@@ -167,11 +168,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtresource.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qttranslation.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qversiontagging.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtgui-config.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtguiexports.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreapplication.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstring.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qchar.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcompare.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstdlibdetection.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcomparehelpers.h \
@@ -202,10 +198,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/vector.tcc \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/array \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/compare \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringview.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbytearray.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qrefcount.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qnamespace.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtmetamacros.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qarraydata.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qpair.h \
@@ -291,6 +283,11 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbytearrayalgorithms.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbytearrayview.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringfwd.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/QDir \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdir.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstring.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qchar.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringview.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringalgorithms.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qlatin1stringview.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qanystringview.h \
@@ -299,9 +296,10 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringbuilder.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringconverter.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qstringconverter_base.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreevent.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbasictimer.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qabstracteventdispatcher.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdirlisting.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qfiledevice.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qiodevice.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qiodevicebase.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qobject.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qobjectdefs.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qobjectdefs_impl.h \
@@ -320,7 +318,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qscopedpointer.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qmetatype.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdatastream.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qiodevicebase.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qfloat16.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qmath.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtformat_impl.h \
@@ -342,12 +339,42 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/chrono.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/ratio \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/ctime \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qeventloop.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdeadlinetimer.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qnativeinterface.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreapplication_platform.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qwindowdefs.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qinputmethod.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qspan.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cassert \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/q20iterator.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/filesystem \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/fs_fwd.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/fs_path.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/locale \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/locale_facets.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cwctype \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/wctype.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/ctype_base.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/ctype_inline.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/locale_facets.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/locale_facets_nonio.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/time_members.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/aarch64-cybit-linux-uclibc/bits/messages_members.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/codecvt.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/locale_facets_nonio.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/locale_conv.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/iomanip \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/quoted_string.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/sstream \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/istream \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/ios \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/basic_ios.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/basic_ios.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/ostream \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/ostream.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/ostream.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/istream.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/sstream.tcc \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/codecvt \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/fs_dir.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/bits/fs_ops.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdatetime.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcalendar.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qlocale.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qvariant.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdebug.h \
@@ -380,6 +407,24 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qalloc.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/q23utility.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/q20utility.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qfile.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qfileinfo.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtimezone.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/QGuiApplication \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qguiapplication.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtguiglobal.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtgui-config.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qtguiexports.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreapplication.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreevent.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qbasictimer.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qabstracteventdispatcher.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qeventloop.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdeadlinetimer.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qnativeinterface.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcoreapplication_platform.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qwindowdefs.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtGui/qinputmethod.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qpoint.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcheckedint_impl.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qsize.h \
@@ -390,9 +435,6 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlengine.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qurl.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qjsengine.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtimezone.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qdatetime.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qcalendar.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qjsvalue.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qtqmlglobal.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qtqml-config.h \
@@ -412,10 +454,10 @@ CMakeFiles/cybit.dir/src/main.cpp.o: \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qpointer.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qtyperevision.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qversionnumber.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/qspan.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/include/c++/15.3.0/cassert \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/q20iterator.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlregistration.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQmlIntegration/qqmlintegration.h \
  /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlerror.h \
- /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlabstracturlinterceptor.h
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlabstracturlinterceptor.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/QQmlContext \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtQml/qqmlcontext.h \
+ /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/include/QtCore/QStringList

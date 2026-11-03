@@ -13,6 +13,17 @@ qt_add_executable(cybit
     src/main.cpp
 )
 
+file(GLOB ASSET_FILES CONFIGURE_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/assets/*"
+)
+
+foreach(ASSET ${ASSET_FILES})
+    get_filename_component(FILENAME ${ASSET} NAME)
+    set_source_files_properties(${ASSET}
+        PROPERTIES QT_RESOURCE_ALIAS "assets/${FILENAME}"
+    )
+endforeach()
+
 qt_add_qml_module(cybit
     URI Cybit
     VERSION 1.0
@@ -22,7 +33,7 @@ qt_add_qml_module(cybit
         ui/views/YTMusicView.qml
         ui/views/LeftView.qml
     RESOURCES
-        assets/image.png
+        ${ASSET_FILES}
 )
 
 target_link_libraries(cybit

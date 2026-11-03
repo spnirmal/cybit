@@ -11,6 +11,9 @@ eb56af7f11459f8c7eac7e2ffdbd43ae .qt/rcc/qrc_qmake_Cybit.cpp
 8b804428f7e6036a89916d2497bcdf64 .rcc/qmlcache/all_aotstats.aotstats
 dbe2a6b462f57d3579ecc356962376fd .rcc/qmlcache/cybit_qmlcache_loader.cpp
 6f69c47009e540ab1f1e11147486712d .rcc/qmlcache/cybit_ui_Main_qml.cpp
+dd9dbcea8035c732a5208a339d10d183 .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+057841cd0db4242a4335a55a1d4a37b9 .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+934da26286bc50b1b829625769690036 .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
 31bbc35b47442fcbbd9f6204d3bf3c8d .rcc/qmlcache/module_cybit.aotstats
 4d23b4e153b389ab0fdbad88f30ab2ce CMakeFiles/all_aotstats
 0f2af90c8f7228d79808f9ca0ab0e9f6 CMakeFiles/clean_qml_context_properties

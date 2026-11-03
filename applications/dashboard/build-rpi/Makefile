@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -507,6 +508,78 @@ build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s
 .PHONY : build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s
 
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.o: build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.o
+
+# target to build an object file
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.i: build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.i
+
+# target to preprocess a source file
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.s: build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.s
+
+# target to generate assembly for a file
+build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.o: build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.o
+
+# target to build an object file
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.i: build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.i
+
+# target to preprocess a source file
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.s: build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.s
+
+# target to generate assembly for a file
+build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.o: build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.o
+
+# target to build an object file
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.i: build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.i
+
+# target to preprocess a source file
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i
+
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.s: build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.s
+
+# target to generate assembly for a file
+build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cybit.dir/build.make CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s
+.PHONY : build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s
+
 cybit_autogen/mocs_compilation.o: cybit_autogen/mocs_compilation.cpp.o
 .PHONY : cybit_autogen/mocs_compilation.o
 
@@ -624,6 +697,15 @@ help:
 	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.o"
 	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.i"
 	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.s"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.o"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.i"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.s"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.o"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.i"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.s"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.o"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.i"
+	@echo "... build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.s"
 	@echo "... cybit_autogen/mocs_compilation.o"
 	@echo "... cybit_autogen/mocs_compilation.i"
 	@echo "... cybit_autogen/mocs_compilation.s"
@@ -644,6 +726,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

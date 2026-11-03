@@ -69,7 +69,9 @@ include CMakeFiles/cybit_copy_res.dir/progress.make
 CMakeFiles/cybit_copy_res: .qt/cybit_res.txt
 
 .qt/cybit_res.txt: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-.qt/cybit_res.txt: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/image.png
+.qt/cybit_res.txt: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg1.png
+.qt/cybit_res.txt: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg2.png
+.qt/cybit_res.txt: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg3.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying cybit qml resources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/cybit_res.cmake -P /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

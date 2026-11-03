@@ -74,6 +74,9 @@ CMakeFiles/cybit_qmlimportscan: .qt/qml_imports/cybit_build.cmake
 .qt/qml_imports/cybit_build.cmake: .qt/rcc/cybit_raw_res_0.qrc
 .qt/qml_imports/cybit_build.cmake: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
 .qt/qml_imports/cybit_build.cmake: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/Main.qml
+.qt/qml_imports/cybit_build.cmake: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+.qt/qml_imports/cybit_build.cmake: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+.qt/qml_imports/cybit_build.cmake: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for cybit"
 	cd /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard && /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlimportscanner @/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/qml_imports/cybit_build.rsp
 

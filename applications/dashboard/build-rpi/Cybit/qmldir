@@ -2,5 +2,8 @@ module Cybit
 typeinfo cybit.qmltypes
 prefer :/qt/qml/Cybit/
 Main 1.0 ui/Main.qml
+DashboardView 1.0 ui/views/DashboardView.qml
+YTMusicView 1.0 ui/views/YTMusicView.qml
+LeftView 1.0 ui/views/LeftView.qml
 depends QtQuick
 

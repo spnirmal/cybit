@@ -69,6 +69,9 @@ include CMakeFiles/module_cybit_aotstats_target.dir/progress.make
 CMakeFiles/module_cybit_aotstats_target: .rcc/qmlcache/module_cybit.aotstats
 
 .rcc/qmlcache/module_cybit.aotstats: .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats
+.rcc/qmlcache/module_cybit.aotstats: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats
+.rcc/qmlcache/module_cybit.aotstats: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats
+.rcc/qmlcache/module_cybit.aotstats: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats
 .rcc/qmlcache/module_cybit.aotstats: .rcc/qmlcache/module_cybit.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_cybit.aotstats"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlaotstats aggregate /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/module_cybit.aotstatslist /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/module_cybit.aotstats
@@ -88,11 +91,62 @@ CMakeFiles/module_cybit_aotstats_target: .rcc/qmlcache/module_cybit.aotstats
 .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats
 
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp, .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/DashboardView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats
+
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp, .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/LeftView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
+
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats
+
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp, .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/YTMusicView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats
+
 CMakeFiles/module_cybit_aotstats_target.dir/codegen:
 .PHONY : CMakeFiles/module_cybit_aotstats_target.dir/codegen
 
 module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_Main_qml.cpp
 module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+module_cybit_aotstats_target: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats
 module_cybit_aotstats_target: .rcc/qmlcache/module_cybit.aotstats
 module_cybit_aotstats_target: CMakeFiles/module_cybit_aotstats_target
 module_cybit_aotstats_target: CMakeFiles/module_cybit_aotstats_target.dir/build.make

@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/qt/qml/Cybit/">
     <file alias="ui/Main.qml">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/Main.qml</file>
+    <file alias="ui/views/DashboardView.qml">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml</file>
+    <file alias="ui/views/YTMusicView.qml">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml</file>
+    <file alias="ui/views/LeftView.qml">/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml</file>
   </qresource>
 </RCC>
 

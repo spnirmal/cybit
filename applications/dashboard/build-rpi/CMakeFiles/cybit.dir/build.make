@@ -120,31 +120,82 @@ Cybit/cybit.qmltypes: cybit_qmltyperegistrations.cpp
 .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats
 
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp, .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/DashboardView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+
+.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats
+
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp, .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/YTMusicView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+
+.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats
+
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/qmake_Cybit.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_qml_0.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_res_0.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: Cybit/cybit.qmltypes
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp: Cybit/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp, .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/qmlcachegen --bare --resource-path /qt/qml/Cybit/ui/views/LeftView.qml -I /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi -I /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/qt6/qml -i /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/Cybit/qmldir --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qmake_Cybit.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --resource /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Cybit(cybit)" -o /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
+
+.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats
+
 .qt/rcc/qrc_cybit_raw_qml_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/Main.qml
+.qt/rcc/qrc_cybit_raw_qml_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+.qt/rcc/qrc_cybit_raw_qml_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+.qt/rcc/qrc_cybit_raw_qml_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
 .qt/rcc/qrc_cybit_raw_qml_0.cpp: .qt/rcc/cybit_raw_qml_0.qrc
 .qt/rcc/qrc_cybit_raw_qml_0.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource cybit_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running rcc for resource cybit_raw_qml_0"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc --output /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp --name cybit_raw_qml_0 /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0.qrc --no-zstd
 
-.qt/rcc/qrc_cybit_raw_res_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/image.png
+.qt/rcc/qrc_cybit_raw_res_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg1.png
+.qt/rcc/qrc_cybit_raw_res_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg2.png
+.qt/rcc/qrc_cybit_raw_res_0.cpp: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/assets/bg3.png
 .qt/rcc/qrc_cybit_raw_res_0.cpp: .qt/rcc/cybit_raw_res_0.qrc
 .qt/rcc/qrc_cybit_raw_res_0.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource cybit_raw_res_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource cybit_raw_res_0"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc --output /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp --name cybit_raw_res_0 /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_res_0.qrc --no-zstd
 
 .qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp: Cybit/ui/qmldir
+.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp: Cybit/ui/views/qmldir
 .qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp: .qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc
 .qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running rcc for resource cybit_raw_qml_0_extra_qmldirs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running rcc for resource cybit_raw_qml_0_extra_qmldirs"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/rcc --output /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp --name cybit_raw_qml_0_extra_qmldirs /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/cybit_raw_qml_0_extra_qmldirs.qrc --no-zstd
 
 meta_types/cybit_json_file_list.txt: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/cmake_automoc_parser
 meta_types/cybit_json_file_list.txt: cybit_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target cybit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running AUTOMOC file extraction for target cybit"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/cybit_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles/cybit_autogen.dir/AutogenInfo.json --output-file-path /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/meta_types/cybit_json_file_list.txt --timestamp-file-path /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/meta_types/cybit_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cybit_autogen/include
 
 meta_types/qt6cybit_metatypes.json: meta_types/qt6cybit_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6cybit_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating meta_types/qt6cybit_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/cybit.dir/codegen:
@@ -153,7 +204,7 @@ CMakeFiles/cybit.dir/codegen:
 CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o: cybit_autogen/mocs_compilation.cpp
 CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o -MF CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cybit_autogen/mocs_compilation.cpp
 
 CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.i: cmake_force
@@ -167,7 +218,7 @@ CMakeFiles/cybit.dir/cybit_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/cybit.dir/src/main.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/src/main.cpp.o: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/src/main.cpp
 CMakeFiles/cybit.dir/src/main.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cybit.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cybit.dir/src/main.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/src/main.cpp.o -MF CMakeFiles/cybit.dir/src/main.cpp.o.d -o CMakeFiles/cybit.dir/src/main.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/src/main.cpp
 
 CMakeFiles/cybit.dir/src/main.cpp.i: cmake_force
@@ -181,7 +232,7 @@ CMakeFiles/cybit.dir/src/main.cpp.s: cmake_force
 CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o: cybit_qmltyperegistrations.cpp
 CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o -MF CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o.d -o CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cybit_qmltyperegistrations.cpp
 
 CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.i: cmake_force
@@ -195,7 +246,7 @@ CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o: .qt/rcc/qrc_qmake_Cybit.cpp
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.i: cmake_force
@@ -209,7 +260,7 @@ CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.s: cmake_force
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o: .rcc/qmlcache/cybit_qmlcache_loader.cpp
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.i: cmake_force
@@ -223,7 +274,7 @@ CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.s: cmake_
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o: .rcc/qmlcache/cybit_ui_Main_qml.cpp
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.i: cmake_force
@@ -234,10 +285,52 @@ CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.s
 
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o: CMakeFiles/cybit.dir/flags.make
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp > CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.i
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.s
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o: CMakeFiles/cybit.dir/flags.make
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp > CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.i
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.s
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o: CMakeFiles/cybit.dir/flags.make
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp > CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.i
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s"
+	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp -o CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.s
+
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o: .qt/rcc/qrc_cybit_raw_qml_0.cpp
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.i: cmake_force
@@ -251,7 +344,7 @@ CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.s: cmake_force
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o: .qt/rcc/qrc_cybit_raw_res_0.cpp
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.i: cmake_force
@@ -265,7 +358,7 @@ CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.s: cmake_force
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles/cybit.dir/flags.make
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o: .qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles/cybit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o"
 	/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/aarch64-cybit-linux-uclibc-g++ --sysroot=/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o -MF CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o.d -o CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o -c /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp
 
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.i: cmake_force
@@ -284,6 +377,9 @@ cybit_OBJECTS = \
 "CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o" \
 "CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o" \
 "CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o" \
+"CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o" \
+"CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o" \
+"CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o" \
 "CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o" \
 "CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o" \
 "CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o"
@@ -297,6 +393,9 @@ cybit: CMakeFiles/cybit.dir/cybit_qmltyperegistrations.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o
+cybit: CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o
+cybit: CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o
+cybit: CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o
 cybit: CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o
@@ -307,7 +406,7 @@ cybit: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cy
 cybit: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libQt6Qml.so.6.11.2
 cybit: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/libQt6Core.so.6.11.2
 cybit: CMakeFiles/cybit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable cybit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable cybit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cybit.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -325,6 +424,12 @@ CMakeFiles/cybit.dir/depend: .qt/rcc/qrc_qmake_Cybit.cpp
 CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_qmlcache_loader.cpp
 CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_Main_qml.cpp
 CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_Main_qml.cpp.aotstats
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.aotstats
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.aotstats
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp
+CMakeFiles/cybit.dir/depend: .rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.aotstats
 CMakeFiles/cybit.dir/depend: Cybit/cybit.qmltypes
 CMakeFiles/cybit.dir/depend: cybit_qmltyperegistrations.cpp
 CMakeFiles/cybit.dir/depend: meta_types/cybit_json_file_list.txt

@@ -68,6 +68,9 @@ include CMakeFiles/cybit_qmllint_module.dir/progress.make
 
 CMakeFiles/cybit_qmllint_module: /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/qmllint
 CMakeFiles/cybit_qmllint_module: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/Main.qml
+CMakeFiles/cybit_qmllint_module: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/DashboardView.qml
+CMakeFiles/cybit_qmllint_module: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/YTMusicView.qml
+CMakeFiles/cybit_qmllint_module: /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/ui/views/LeftView.qml
 CMakeFiles/cybit_qmllint_module: .rcc/qmllint/cybit_module.rsp
 	cd /home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard && /home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/bin/qmllint @/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmllint/cybit_module.rsp
 

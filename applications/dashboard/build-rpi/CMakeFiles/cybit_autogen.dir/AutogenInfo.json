@@ -706,6 +706,7 @@
 		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/sp/Documents/projects/cyberdeck/buildroot_build_dir/host/aarch64-cybit-linux-uclibc/sysroot/usr/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/qml_imports/cybit_conf.cmake"
@@ -781,6 +782,9 @@
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cybit_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -809,6 +813,9 @@
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp",
+		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp",
 		"/home/sp/Documents/projects/cyberdeck/cybit_rpi/applications/dashboard/build-rpi/cybit_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

@@ -9,8 +9,8 @@ ApplicationWindow {
     flags: Qt.FramelessWindowHint
     title: "Cybit"
 
-    width: Screen.width
-    height: Screen.height
+    width: 800
+    height: 480
     color: "black"
 
     SwipeView {

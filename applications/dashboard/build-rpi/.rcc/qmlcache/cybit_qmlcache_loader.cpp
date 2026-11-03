@@ -12,6 +12,27 @@ namespace _qt_qml_Cybit_ui_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_Cybit_ui_views_DashboardView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Cybit_ui_views_YTMusicView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Cybit_ui_views_LeftView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +48,9 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Cybit/ui/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_Cybit_ui_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Cybit/ui/views/DashboardView.qml"), &QmlCacheGeneratedCode::_qt_qml_Cybit_ui_views_DashboardView_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Cybit/ui/views/YTMusicView.qml"), &QmlCacheGeneratedCode::_qt_qml_Cybit_ui_views_YTMusicView_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Cybit/ui/views/LeftView.qml"), &QmlCacheGeneratedCode::_qt_qml_Cybit_ui_views_LeftView_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

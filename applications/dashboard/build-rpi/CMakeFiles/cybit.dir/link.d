@@ -8,6 +8,9 @@ cybit: \
   CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o \
   CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o \
   CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o \
+  CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o \
+  CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o \
+  CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o \
   CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o \
   CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_res_0.cpp.o \
   CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0_extra_qmldirs.cpp.o \
@@ -68,6 +71,12 @@ CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_qmake_Cybit.cpp.o:
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_qmlcache_loader.cpp.o:
 
 CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_Main_qml.cpp.o:
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_DashboardView_qml.cpp.o:
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_YTMusicView_qml.cpp.o:
+
+CMakeFiles/cybit.dir/build-rpi/.rcc/qmlcache/cybit_ui_views_LeftView_qml.cpp.o:
 
 CMakeFiles/cybit.dir/build-rpi/.qt/rcc/qrc_cybit_raw_qml_0.cpp.o:
 
